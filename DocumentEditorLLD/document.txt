@@ -1,0 +1,2 @@
+Image with path: https://himi.png rendered.
+Hello himi

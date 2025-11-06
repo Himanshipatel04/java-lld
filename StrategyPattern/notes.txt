@@ -1,0 +1,5 @@
+suppose that we are creating an application which controls so many robots. we have to simulate robots.
+
+Strategy Pattern is a behavioral design pattern that enables selecting an algorithm's behavior at runtime. It defines a family of algorithms, encapsulates each one, and makes them interchangeable. This pattern allows the algorithm to vary independently from clients that use it.
+
+

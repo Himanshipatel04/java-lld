@@ -3,6 +3,8 @@ package SOLID.LSP.MethodRule;
 // A Postcondition must be satisfied after a method is executed.
 // Subclasses can strengthen the Postcondition but cannot weaken it.
 
+//a real world example in software system could be an account class where a method withdraw reduces the account balance. The postcondition is that after the withdraw method is called, the balance must be less than it was before the call. If a subclass SavingsAccount overrides the withdraw method to not only reduce the balance but also add a bonus interest to the account, it strengthens the postcondition (balance is reduced and bonus is added) without violating LSP. However, if it were to override withdraw in a way that sometimes does not reduce the balance (for example, by allowing overdrafts without reducing the balance), it would weaken the postcondition and violate LSP.
+
 class Car {
     protected int speed;
 

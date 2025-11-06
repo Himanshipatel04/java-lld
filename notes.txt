@@ -1,0 +1,10 @@
+What are design patterns in software engineering?
+Design patterns in software engineering are reusable solutions to common problems that occur within a given context in software design. They provide a template for how to solve a problem in a way that has been proven to be effective. Design patterns help improve code readability, maintainability, and scalability by providing standard terminology and best practices. Some common design patterns include Singleton, Observer, Factory, and Strategy patterns. Each pattern addresses a specific design issue and can be adapted to fit various programming languages and frameworks.
+
+They are typically categorized into three main types:
+1. Creational Patterns: Deal with object creation mechanisms, trying to create objects in a manner suitable to the situation. Examples include Singleton, Factory Method, and Abstract Factory.
+
+2. Structural Patterns: Concerned with object composition and typically help ensure that if one part of a system changes, the entire system doesn't need to do the same. Examples include Adapter, Composite, and Decorator.
+
+3. Behavioral Patterns: Focus on communication between objects, helping to define how objects interact and distribute responsibility. Examples include Observer, Strategy, and Command patterns.
+

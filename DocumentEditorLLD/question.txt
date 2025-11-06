@@ -1,0 +1,8 @@
+a document editor can have text and images
+
+
+DocumentEditor :
+    for storing text and images we are using string for both text and images(path stored as string)
+    we had other options like create two separate lists for text and images but that would have made it difficult to maintain the order of text and images as they appear in the document
+    so we are using a single list to store both text and images as they appear in the document
+    DocumentEditor class will have a list of elements where each element can be either text or image

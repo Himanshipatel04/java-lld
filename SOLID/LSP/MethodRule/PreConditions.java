@@ -2,7 +2,7 @@ package SOLID.LSP.MethodRule;
 // A Precondition must be statisfied before a method can be executed.
 // Sub classes can weaken the precondition but cannot strengthen it.
 
-//This is because suppose a class wants 8 character password as precondition and child class wants 10 character password as precondition, then client code which is using parent class reference to child class object will not be able to satisfy the precondition of child class as it is stronger than parent class precondition.
+//This is because suppose a class wants 8 character password as precondition and child class wants 10 character password as precondition, then during substitution child class will expect 10 character password but parent class only guarantees 8 character password. user will only provide 8 character password as per parent class contract. Hence child class will fail to execute as its precondition is not met.
 // Hence LSP is violated.
 
 class User {
