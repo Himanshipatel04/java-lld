@@ -1,21 +1,21 @@
 package Projects.ZomatoLLD.Models;
 
 public class MenuItem {
-    int menuItemId;
+    String menuItemId;
     String itemName;
     int price;
 
-    public MenuItem(String itemName, int price, int id) {
+    public MenuItem(String id,String itemName, int price) {
         this.itemName = itemName;
         this.price = price;
         this.menuItemId = id;
     }
 
-    public void setItemId(int id) {
+    public void setItemId(String id) {
         this.menuItemId = id;
     }
 
-    public int getItemId() {
+    public String getItemId() {
         return menuItemId;
     }
 

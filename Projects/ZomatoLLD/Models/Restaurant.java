@@ -41,4 +41,13 @@ public class Restaurant {
         items.remove(item);
         System.out.println("Item deleted successfully");
     }
+
+    public void setMenu(List<MenuItem> menuItems) {
+        this.items = menuItems;
+    }
+
+    public List<MenuItem> getMenu() {
+        return items;
+    }
+
 }

@@ -20,17 +20,17 @@ public class RestaurantManager {
         return instance;
     }
 
-    void addRestaurant(Restaurant restaurant) {
+    public void addRestaurant(Restaurant restaurant) {
         restaurants.add(restaurant);
         System.out.println("Added restaurant");
     }
 
-    void deleteRestaurant(Restaurant restaurant) {
+    public void deleteRestaurant(Restaurant restaurant) {
         restaurants.remove(restaurant);
         System.out.println("Deleted restaurant");
     }
 
-    List<Restaurant> searchRestaurants(String loc) {
+    public List<Restaurant> searchRestaurants(String loc) {
         List<Restaurant> result = new ArrayList<>();
         for (Restaurant restaurant : restaurants) {
 

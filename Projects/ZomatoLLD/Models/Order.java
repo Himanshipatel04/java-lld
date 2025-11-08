@@ -43,12 +43,12 @@ public abstract class Order {
         return restaurant;
     }
 
-    public boolean processPayment(int amount) {
+    public boolean processPayment() {
         if (paymentStrategy == null) {
             System.out.println("Choose a payment strategy first");
             return false;
         }
-        paymentStrategy.pay(amount);
+        paymentStrategy.pay(total);
         return true;
     }
 

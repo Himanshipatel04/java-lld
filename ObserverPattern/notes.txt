@@ -1,0 +1,14 @@
+Whenever you subscribe to a channel on youtube, you get a notification on their new videos. This is an example of the Observer Pattern in action.
+
+The Observer Pattern is a behavioral design pattern that defines a one-to-many dependency between objects. When one object (the subject) changes its state, all its dependents (the observers) are notified and updated automatically.
+
+If we don't use observer pattern, we would have to manually check for updates on the subject, which can lead to tight coupling between the subject and observers, making the code harder to maintain and extend.
+It is called polling.
+
+Observer Pattern promotes loose coupling by allowing subjects and observers to interact through a common interface, making it easier to add or remove observers without affecting the subject. It uses push model to notify observers of changes.
+
+Components of Observer Pattern:
+1. Subject: The object that holds the state and notifies observers of any changes.
+2. Observer: The object that wants to be notified of changes in the subject.
+3. ConcreteSubject: A specific implementation of the Subject that maintains a list of observers and implements methods to attach, detach, and notify them.
+4. ConcreteObserver: A specific implementation of the Observer that defines how to update itself when notified
