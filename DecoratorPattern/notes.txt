@@ -1,0 +1,13 @@
+Decorator Pattern
+
+Suppose we are playing a video game where a character can have different abilities.
+We can use the Decorator Pattern to add abilities to our character dynamically.
+
+Why we can't use inheritance?
+- Inheritance creates a rigid structure. If we want to add or remove abilities, we would
+    need to create a new subclass for each combination of abilities.
+- This leads to a combinatorial explosion of classes and makes the code hard to maintain.
+- The Decorator Pattern allows us to add or remove abilities at runtime without modifying
+    the original class or creating a new subclass.
+- It promotes composition over inheritance, making the code more flexible and easier to maintain.
+
